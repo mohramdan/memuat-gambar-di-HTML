@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Menyimpan Gambar di HTML</title>
+    <link rel="stylesheet" href="hal1.css">
+</head>
+<body>
+
+<div class="kotaksatu">
+<h3>Menyimpan gambar di HTML</h3>
+   <ul>
+    <li> Untuk menyimpan gambar di HTML, kita bisa menggunakan tag image dengan atribut <b> src </b> didalamnya. contoh: <b> < img src="" > </b></li>
+    <li> Terdapat 2 cara untuk menampilkan gambar di file HTML kita tergantung dari sumber filenya</li>
+    </ul>
+    <br> </div>
+    <div class="kotakdua">
+    	<ol>
+    		<li> Internal resource</li>
+    			<ul>
+    			<li> Jika file gambar yang ingin digunakan berada didalam folder yang sama dengan file HTML yang digunakan, Maka value di atribut <b> src </b> nya cukup tuliskan nama filenya dan ekstensi filenya. <b> INGAT </b> ekstensi file wajib ditulis</li>
+    			<li> Misal saya ingin menampilkan file gambar yang bernama <b> bakso.jpg </b>. Maka full tagnya menjadi: <b> < img src="bakso.jpg" > </b></li> 
+    			<li> maka hasilnya:</li>
+    			<img src="bakso.jpg">
+    			<li> jika file gambar berada diluar folder/di folder. maka aturan penulisan valuenya sama seperti aturan penulisan suber hyperlink. Silahkan <a href="../lat6/hal1.html#intlink" target="_blank"> baca disini </a></li>
+    			</ul><br>
+
+    		<li> Eksternal resource </li>
+    			<ul>
+    			<li> Menampilkan gambar dari website lain tidak disarankan untuk menggunakan external karena:
+    				<ol>
+    					<li> jika menggunakan gambar dari website lain, maka kita menggunakan bandwith website lain ketika user mengakses gambar tersebut di web kita. curang dong ya.</li>
+    					<li> kita harus memastikan apakah gambar tersebut bebas copyright atau tidak</li>
+    					<li> bergantung ke website lain. jika web lain down/tidak bisa di akses. maka gambar di web kita pun akan error</li>
+    				</ol>
+    			</li>
+    			</ul>
+    	</ol>
+        </div>
+<div class="kotaktiga">
+<h3> Atribut di tag <b> img </b></h3>
+    <ol>
+        <li><b>src</b>: merupakan atribut wajib untuk menentukan lokasi file gambar</li><br>
+        <li> <b> alt </b>: berguna untuk memberikan <b> alternatif text </b> pada gambar. alt ini akan muncul ketika gambar yang kita tampilkan error/tidak bisa dibuka di device user
+          <br> cohtoh <b> < img src ="bakso.jpg" alt="gambarbakso" >  </b><br>
+            Jika gambar error/tidak tidak bisa muncul di device user, maka yang akan alternatif teks nya, seperti contoh dibawah ini </li>
+            <img src="bakso.jp" alt="gambar bakso">
+        <br><br>
+        <li> <b> title </b>: untuk memberijudul gambar. jadi ketika user mengarahkan kursor ke gambar yang ditampilkan, maka akan muncul tulisan title nya <br>
+            contoh <b> < img src="bakso.jpg" title="Bakso Mang Ujang" > </b> <br>
+            Silahkan arahkan kursor ke gambar dibawah ini<br>
+            <img src="bakso.jpg" title="Bakso Mang Ujang"></li>
+        <br>
+        <li> <b> width </b> dan <b> height </b>: untuk mengatur lebar dan tinggi gambar
+              <br>  untuk value dari artibut width dan height, bisa menggunakan 2 nilai. jika hanya menuliskan angka, maka satuannya berbentuk pixel. akan tetapi jika ditambahkan <b> % </b> maka ukurannya relatif terhadap halamannya.<br>
+              misal jika mengatur width di 50% maka ukuran lebar gambar akan menyesuaikan dengan ukuran halaman (setengah dari halaman) <br>
+              jika halaman browser diper besar atau diperkecil, maka ukuran gambar akan menyesuaikan. <br>
+              contoh: < img src="bakso.jpg" width="50%" > <br>
+              maka gambarnya akan seperti ini: <br>
+              <img src="bakso.jpg" width="50%"> <br>
+              <b> silahkan coba perkecil halaman browsernya </b>
+              <br><br>
+              atribut <b> width </b> dan <b> height </b> bisa digunakan dua duanya sekaligus, bisa juga hanya salah satunya.
+              <br>jika hanya dipilih satu (misal hanya menggunakan atribut width), maka atribut height akan menyesuaikan. begitupun sebaliknya.
+              <br> contoh jika hanya menggunakan atribut width dengan ukuran 300 (satuan piksel): <br>
+              <img src="bakso.jpg" width="300"> <br>
+              <br> contoh jika dipilih dua duanya maka dengan ukuran width 300 dan hight 250, maka ukurannya akan menyesuaikan ukurannya <br>
+              <img src="bakso.jpg" width="300" height="250"> <br>
+        </li>
+    </ol>
+</div>
+<div class="kotakempat">
+<h3> Hyperlink + Image </h3>
+    <ul>
+        <li> ketika user ngklik gambar yang menggunakan hyperlink, maka user akan diarahkan ke web tujuan yang di simpan di hyperlink</li>
+        <li> untuk menambahkan link pada gambar, maka cukup tambahkan tag img didalam tag hyperlink.</li>
+        <li> contoh: <b> < a href="www.facebook.com" > </b> <u> <i> < img src="bakso.jpg" width="300" > </i></u> <b> < /a > </b> <br>
+        <b> silahkan klik gambar dibawah ini </b></li>
+        <a href="http://www.jajakasubang.blogspot.com"> <img src="bakso.jpg" width="300"> </a>
+    </ul>
+</div>
+</body>
+</html>
