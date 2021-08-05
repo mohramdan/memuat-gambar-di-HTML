@@ -1,8 +1,37 @@
+header {
+	background-color: whitesmoke;
+	text-align: center;
+	height: 100px;
+	margin: 0px 10px;
+	margin-bottom: 10px;
+}
+
+.namablog {
+	padding-top: 10px;
+	padding-bottom: 0px%;
+}
+.container1 {
+	width: 31%;
+	height: 1000px;
+	background-color: white;
+	color: black;
+	float: left;
+	text-align: center;
+	margin-left: 10px;
+}
+
+.container2 {
+	float: right;
+	width: 66%;
+	background-color: white;
+	margin-right: 10px;
+}
 
 .kotaksatu {
 	background-color: lightblue;
-	width: 75%;
-	align-content: center;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
 }
 
 .kotaksatu h3 {
@@ -11,16 +40,16 @@
 
 .kotakdua {
 	background-color: #fafad2;
-	width:  75%;
+	width:  100%;
 	line-height: 1.5em;
-	align-content: center;
+	
 }
 
 .kotaktiga {
 	background-color: #FFE4E1;
-	width: 75%;
+	width: 100%;
 	line-height: 1.5em;
-	align-content: center;
+	
 }
 
 .kotaktiga h3 {
@@ -29,9 +58,9 @@
 
 .kotakempat {
 	background-color: #98FB98;
-	width: 75%;
+	width: 100%;
 	line-height: 1.5em;
-	align-content: center;
+	
 }
 
 .kotakempat h3 {
