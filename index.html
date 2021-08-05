@@ -7,26 +7,41 @@
 </head>
 <body>
 
-<div class="kotaksatu">
-<h3>Menyimpan gambar di HTML</h3>
-   <ul>
-    <li> Untuk menyimpan gambar di HTML, kita bisa menggunakan tag image dengan atribut <b> src </b> didalamnya. contoh: <b> < img src="" > </b></li>
-    <li> Terdapat 2 cara untuk menampilkan gambar di file HTML kita tergantung dari sumber filenya</li>
+<Header>
+    <div class="namablog">
+    <h1>MASIH BELAJAR CODING</h1>
+    </div>
+</Header>
+
+<section class="tengah">
+<div class="container1">
+    <h1>TEST</h1>
+</div>
+
+<div class="container2">
+  <div class="kotaksatu">
+    
+    <h3>Menyimpan gambar di HTML</h3>
+    <ul>
+      <li> Untuk menyimpan gambar di HTML, kita bisa menggunakan tag image dengan atribut <b> src </b> didalamnya. contoh: <b> < img src="" > </b></li>
+      <li> Terdapat 2 cara untuk menampilkan gambar di file HTML kita tergantung dari sumber filenya</li>
     </ul>
-    <br> </div>
-    <div class="kotakdua">
-    	<ol>
-    		<li> Internal resource</li>
-    			<ul>
+    <br>
+  </div>
+    
+  <div class="kotakdua">
+    <ol>
+    	<li> Internal resource</li>
+    	    <ul>
     			<li> Jika file gambar yang ingin digunakan berada didalam folder yang sama dengan file HTML yang digunakan, Maka value di atribut <b> src </b> nya cukup tuliskan nama filenya dan ekstensi filenya. <b> INGAT </b> ekstensi file wajib ditulis</li>
     			<li> Misal saya ingin menampilkan file gambar yang bernama <b> bakso.jpg </b>. Maka full tagnya menjadi: <b> < img src="bakso.jpg" > </b></li> 
     			<li> maka hasilnya:</li>
     			<img src="bakso.jpg">
     			<li> jika file gambar berada diluar folder/di folder. maka aturan penulisan valuenya sama seperti aturan penulisan suber hyperlink. Silahkan <a href="../lat6/hal1.html#intlink" target="_blank"> baca disini </a></li>
-    			</ul><br>
+    		</ul> <br>
 
-    		<li> Eksternal resource </li>
-    			<ul>
+    	<li> Eksternal resource </li>
+    		<ul>
     			<li> Menampilkan gambar dari website lain tidak disarankan untuk menggunakan external karena:
     				<ol>
     					<li> jika menggunakan gambar dari website lain, maka kita menggunakan bandwith website lain ketika user mengakses gambar tersebut di web kita. curang dong ya.</li>
@@ -34,11 +49,12 @@
     					<li> bergantung ke website lain. jika web lain down/tidak bisa di akses. maka gambar di web kita pun akan error</li>
     				</ol>
     			</li>
-    			</ul>
-    	</ol>
-        </div>
-<div class="kotaktiga">
-<h3> Atribut di tag <b> img </b></h3>
+    		</ul>
+        </ol>
+  </div>
+
+  <div class="kotaktiga">
+    <h3> Atribut di tag <b> img </b></h3>
     <ol>
         <li><b>src</b>: merupakan atribut wajib untuk menentukan lokasi file gambar</li><br>
         <li> <b> alt </b>: berguna untuk memberikan <b> alternatif text </b> pada gambar. alt ini akan muncul ketika gambar yang kita tampilkan error/tidak bisa dibuka di device user
@@ -68,9 +84,9 @@
               <img src="bakso.jpg" width="300" height="250"> <br>
         </li>
     </ol>
-</div>
-<div class="kotakempat">
-<h3> Hyperlink + Image </h3>
+  </div>
+  <div class="kotakempat">
+  <h3> Hyperlink + Image </h3>
     <ul>
         <li> ketika user ngklik gambar yang menggunakan hyperlink, maka user akan diarahkan ke web tujuan yang di simpan di hyperlink</li>
         <li> untuk menambahkan link pada gambar, maka cukup tambahkan tag img didalam tag hyperlink.</li>
@@ -78,6 +94,8 @@
         <b> silahkan klik gambar dibawah ini </b></li>
         <a href="http://www.jajakasubang.blogspot.com"> <img src="bakso.jpg" width="300"> </a>
     </ul>
+  </div>
 </div>
+</section>
 </body>
 </html>
