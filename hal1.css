@@ -1,0 +1,47 @@
+
+.kotaksatu {
+	background-color: lightblue;
+	width: 75%;
+	align-content: center;
+}
+
+.kotaksatu h3 {
+	text-align: center;
+}
+
+.kotakdua {
+	background-color: #fafad2;
+	width:  75%;
+	line-height: 1.5em;
+	align-content: center;
+}
+
+.kotaktiga {
+	background-color: #FFE4E1;
+	width: 75%;
+	line-height: 1.5em;
+	align-content: center;
+}
+
+.kotaktiga h3 {
+	text-align: center;
+}
+
+.kotakempat {
+	background-color: #98FB98;
+	width: 75%;
+	line-height: 1.5em;
+	align-content: center;
+}
+
+.kotakempat h3 {
+	text-align: center;
+}
+
+body {
+
+background-color: #000000;
+opacity: 1;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #000000 10px ), repeating-linear-gradient( #ffffff55, #ffffff );
+
+}
